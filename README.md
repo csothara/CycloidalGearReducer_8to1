@@ -2,7 +2,7 @@
 A personal project consisting in developing a cycloidal 8 to 1 reducer compatible with a NEMA17 stepper motor with a D-shaft.
 This follows directly my previous project of a robotic arm articulated by servo motors after noting the flaws, design and servos limitations (extreme play and backlash, bad repeatability, also not good-looking etc...).
 
-Unlike servos (at least the one I used, DM996 and 9g), steppers don't know where the shaft is oriented, which is why I need a magnetic encoder (AS5600) to track it. Moreover, steppers can't generate a high torque, at least in this context of building a robotic arm, so I need some gear reduction system to multiply the initial torque of 0.4Nm in a compact housing, with no backlash, high precision and shock resistant.
+Unlike servos (at least the one I used, DM996 and 9g), steppers don't know where the shaft is oriented, which is why I need a magnetic encoder (AS5600) to track it and a PID control. Moreover, steppers can't generate a high torque, at least not in this context of building a robotic arm, so I need some gear reduction system to multiply the initial torque of 0.4Nm while being compact, having no backlash, high precision and being shock resistant.
 
 I therefore chose the cycloidal type of reducers with a 8 to 1 reduction ratio, which, if well-designed enough, satisfies all my requirements and would give a torque of 3.2Nm (probably less because of friction...).
 
@@ -12,7 +12,7 @@ Sources of materials that helped me a lot:
 www.youtube.com/watch?v=dv2URKU5YNU //most useful video for me for understanding cycloidal reducers
 www.youtube.com/watch?v=stGwlJ-GMCY
 youtu.be/OsS9-FzKN6s?si=D96ZwXOTy2uzee3U
-www.youtube.com/watch?v=VbAhkESCRFM //what taught me almost everything i needed for using Fusion CAD 
+www.youtube.com/watch?v=VbAhkESCRFM //what taught me almost everything i needed for using Fusion CAD
 youtu.be/jQ6LQBFZXmU?si=3ZcaHU4sGydaDMxd
 
 Parts list:
@@ -30,3 +30,5 @@ The most difficult part for me in this project was to think about a step by step
 
 My experience of 3D modelling on Blender I gathered from the first lockdown translated really well to Fusion thanks to the parametric curve maths logic of FUsion made it much easier for me to keep track of all the dimensions otherwise impossible or very frustrating on Blender which uses a polygon mesh logic. This project took me 4 weeks to develop which would have taken months or maybe over year on Blender (the servo robot arm took me over 6 months).
 
+
+Testing soon
