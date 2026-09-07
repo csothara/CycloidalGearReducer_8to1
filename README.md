@@ -31,4 +31,4 @@ The most difficult part for me in this project was to think about a step by step
 My experience of 3D modelling on Blender I gathered from the first lockdown translated really well to Fusion thanks to the parametric curve maths logic of FUsion made it much easier for me to keep track of all the dimensions otherwise impossible or very frustrating on Blender which uses a polygon mesh logic. This project took me 4 weeks to develop which would have taken months on Blender (the servo robot arm took me over 6 months).
 
 
-Testing soon
+Testing and assembly guide soon
