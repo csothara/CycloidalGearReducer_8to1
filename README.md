@@ -28,7 +28,7 @@ some wires
 
 The most difficult part for me in this project was to think about a step by step assembly process while making it compact and making every parts fit snuggly which led me to do a lot of iterations in certain models, even order an urgent express delivery for new parts, for example I realized very late that I needed much bigger bearings 6807-2RS because I did not think about needing a bigger output shaft with enough space for multiple screws to bear load, this adjustment rendered my gearbox to be too thick for my 20mm M3 screws which led to another express delivery of longer M3 screws etc, a defective caliper etc...
 
-My experience of 3D modelling on Blender I gathered from the first lockdown translated really well to Fusion thanks to the parametric curve maths logic of FUsion made it much easier for me to keep track of all the dimensions otherwise impossible or very frustrating on Blender which uses a polygon mesh logic. This project took me 4 weeks to develop which would have taken months on Blender (the servo robot arm took me over 6 months).
+My experience of 3D modelling on Blender I gathered from the first lockdown translated really well to Fusion. The parametric curve maths logic of FUsion made it much easier for me to keep track of all the dimensions otherwise impossible or very frustrating on Blender which uses a polygon mesh logic. This project took me 5 weeks to develop which would have taken months on Blender (the servo robot arm took me over 6 months).
 
 
 Testing and assembly guide soon
