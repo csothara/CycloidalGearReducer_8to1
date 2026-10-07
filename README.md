@@ -8,6 +8,23 @@ I therefore chose the cycloidal type of reducers with a 8 to 1 reduction ratio, 
 
 In this project, I learned how to use Autodesk Fusion CAD because I do not want to use Blender (which I used to build the servo robot arm), the operating principle of a cycloidal drive.
 
+<img width="250" height="350" alt="crosssection_analysis1" src="https://github.com/user-attachments/assets/fec642ca-fcb9-4151-b8bf-c405d7d7a971" />
+
+<img width="300" height="300" alt="crosssection_analysis2" src="https://github.com/user-attachments/assets/ce40cc3c-cd9c-4f83-a382-6bfbc6eccf1f" />
+
+<img width="300" height="350" alt="result1" src="https://github.com/user-attachments/assets/1930c2a0-2e14-4237-b3ba-6ba30a3a3759" />
+
+
+green is the input, blue is the stator, yellow is the gears, red is the output shaft, white rectangle is the magnet, solid dark green hanging is the encoder
+
+
+
+
+https://github.com/user-attachments/assets/1d67e489-21d7-4b95-8014-2ffc441be7d6
+
+
+
+
 Sources of materials that helped me a lot:
 www.youtube.com/watch?v=dv2URKU5YNU //most useful video for me for understanding cycloidal reducers
 www.youtube.com/watch?v=stGwlJ-GMCY
