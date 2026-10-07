@@ -1,6 +1,7 @@
 # CycloidalGearReducer_8to1
 <img width="400" height="290" alt="PID_noload2" src="https://github.com/user-attachments/assets/a65373db-8f0d-4431-b2f3-c23fc0538e89" />
 <img width="220" height="270" alt="result1" src="https://github.com/user-attachments/assets/1930c2a0-2e14-4237-b3ba-6ba30a3a3759" />
+<img width="200" height="290" alt="crosssection_analysis1" src="https://github.com/user-attachments/assets/fec642ca-fcb9-4151-b8bf-c405d7d7a971" />
 
 A personal project consisting in developing a cycloidal 8 to 1 reducer compatible with a NEMA17 stepper motor with a D-shaft.
 This follows directly my previous project of a robotic arm articulated by servo motors after noting the flaws, design and servos limitations (extreme lateral play and backlash, bad repeatability etc).
