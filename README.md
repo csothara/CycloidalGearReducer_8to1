@@ -22,7 +22,8 @@ green is the input, blue is the stator, yellow is the gears, red is the output s
 
 
 
-https://github.com/user-attachments/assets/1d67e489-21d7-4b95-8014-2ffc441be7d6
+<img width="506" height="354" alt="PID_noload2" src="https://github.com/user-attachments/assets/a65373db-8f0d-4431-b2f3-c23fc0538e89" />
+
 
 
 
