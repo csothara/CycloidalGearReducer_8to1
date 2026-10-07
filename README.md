@@ -12,8 +12,9 @@ In this project, I learned how to use Autodesk Fusion CAD because I do not want 
 
 <img width="300" height="300" alt="crosssection_analysis2" src="https://github.com/user-attachments/assets/c9d79fe0-d3b4-4865-acd6-a4dbcc3a5c90" />
 
+<img width="250" height="300" alt="result1" src="https://github.com/user-attachments/assets/1930c2a0-2e14-4237-b3ba-6ba30a3a3759" />
 
-<img width="300" height="350" alt="result1" src="https://github.com/user-attachments/assets/1930c2a0-2e14-4237-b3ba-6ba30a3a3759" />
+<img width="150" height="150" alt="encoder" src="https://github.com/user-attachments/assets/1d26367a-e8bd-4a8f-a156-105c359360ce" />
 
 
 green is the input, blue is the stator, yellow is the gears, red is the output shaft, white rectangle is the magnet, solid dark green hanging is the encoder
