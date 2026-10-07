@@ -1,4 +1,7 @@
 # CycloidalGearReducer_8to1
+<img width="400" height="290" alt="PID_noload2" src="https://github.com/user-attachments/assets/a65373db-8f0d-4431-b2f3-c23fc0538e89" />
+<img width="220" height="270" alt="result1" src="https://github.com/user-attachments/assets/1930c2a0-2e14-4237-b3ba-6ba30a3a3759" />
+
 A personal project consisting in developing a cycloidal 8 to 1 reducer compatible with a NEMA17 stepper motor with a D-shaft.
 This follows directly my previous project of a robotic arm articulated by servo motors after noting the flaws, design and servos limitations (extreme lateral play and backlash, bad repeatability etc).
 
@@ -12,13 +15,9 @@ In this project, I learned how to use Autodesk Fusion CAD because I don't want t
 
 <img width="300" height="300" alt="crosssection_analysis2" src="https://github.com/user-attachments/assets/c9d79fe0-d3b4-4865-acd6-a4dbcc3a5c90" />
 
-<img width="250" height="300" alt="result1" src="https://github.com/user-attachments/assets/1930c2a0-2e14-4237-b3ba-6ba30a3a3759" />
-
 <img width="150" height="150" alt="encoder" src="https://github.com/user-attachments/assets/1d26367a-e8bd-4a8f-a156-105c359360ce" />
 
 green is the input, blue is the stator, yellow is the gears, red is the output shaft, white rectangle is the magnet, solid dark green hanging is the encoder
-
-<img width="506" height="354" alt="PID_noload2" src="https://github.com/user-attachments/assets/a65373db-8f0d-4431-b2f3-c23fc0538e89" />
 
 Sources of materials that helped me a lot:
 www.youtube.com/watch?v=dv2URKU5YNU //most useful video for me for understanding cycloidal reducers
