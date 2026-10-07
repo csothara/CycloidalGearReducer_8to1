@@ -1,12 +1,12 @@
 # CycloidalGearReducer_8to1
 A personal project consisting in developing a cycloidal 8 to 1 reducer compatible with a NEMA17 stepper motor with a D-shaft.
-This follows directly my previous project of a robotic arm articulated by servo motors after noting the flaws, design and servos limitations (extreme play and backlash, bad repeatability, also not good-looking etc...).
+This follows directly my previous project of a robotic arm articulated by servo motors after noting the flaws, design and servos limitations (extreme lateral play and backlash, bad repeatability etc).
 
-Unlike servos (at least the one I used, DM996 and 9g), steppers don't know where the shaft is oriented, which is why I need a magnetic encoder (AS5600) to track it and a PID control. Moreover, steppers can't generate a high torque, at least not in this context of building a robotic arm, so I need some gear reduction system to multiply the initial torque of 0.4Nm while being compact, having no backlash, high precision and being shock resistant.
-
+Steppers can't generate a high torque, at least not in this context of building a robotic arm, so I need some gear reduction system to multiply the initial torque of 0.4Nm while being compact, having no backlash, high precision and being shock resistant.
 I therefore chose the cycloidal type of reducers with a 8 to 1 reduction ratio, which, if well-designed enough, satisfies all my requirements and would give a torque of 3.2Nm (probably less because of friction...).
+I also have to track the orientation of the output shaft with a magnetic encoder (AS5600) and communicate this angle to a PID closed loop control. 
 
-In this project, I learned how to use Autodesk Fusion CAD because I do not want to use Blender (which I used to build the servo robot arm), the operating principle of a cycloidal drive.
+In this project, I learned how to use Autodesk Fusion CAD because I don't want to use Blender (which I used to build the servo robot arm)
 
 <img width="250" height="350" alt="crosssection_analysis1" src="https://github.com/user-attachments/assets/fec642ca-fcb9-4151-b8bf-c405d7d7a971" />
 
@@ -16,17 +16,9 @@ In this project, I learned how to use Autodesk Fusion CAD because I do not want 
 
 <img width="150" height="150" alt="encoder" src="https://github.com/user-attachments/assets/1d26367a-e8bd-4a8f-a156-105c359360ce" />
 
-
 green is the input, blue is the stator, yellow is the gears, red is the output shaft, white rectangle is the magnet, solid dark green hanging is the encoder
 
-
-
-
 <img width="506" height="354" alt="PID_noload2" src="https://github.com/user-attachments/assets/a65373db-8f0d-4431-b2f3-c23fc0538e89" />
-
-
-
-
 
 Sources of materials that helped me a lot:
 www.youtube.com/watch?v=dv2URKU5YNU //most useful video for me for understanding cycloidal reducers
@@ -46,9 +38,9 @@ TMC2209 V2.0 Stepper Motor Driver fr.aliexpress.com/item/1005010646278731.html
 100µF Capacitor
 some wires
 
-The most difficult part for me in this project was to think about a step by step assembly process while making it compact and making every parts fit snuggly which led me to do a lot of iterations in certain models, even order an urgent express delivery for new parts, for example I realized very late that I needed much bigger bearings 6807-2RS because I did not think about needing a bigger output shaft with enough space for multiple screws to bear load, this adjustment rendered my gearbox to be too thick for my 20mm M3 screws which led to another express delivery of longer M3 screws etc, a defective caliper etc...
+The most difficult part for me in this project was to think about a step by step assembly process while making it compact and making every parts fit snuggly which led me to do a lot of iterations in certain models, even order an urgent express delivery for new parts, for example I realized very late that I needed much bigger bearings 6807-2RS because I did not think about needing a bigger output shaft with enough space for multiple screws to bear load, this adjustment rendered my gearbox to be too thick for my 20mm M3 screws which led to another express delivery of longer M3 screws, caliper broke etc
 
-My experience of 3D modelling on Blender I gathered from the first lockdown translated really well to Fusion. The parametric curve maths logic of FUsion made it much easier for me to keep track of all the dimensions otherwise impossible or very frustrating on Blender which uses a polygon mesh logic. This project took me 4 weeks to develop which would have taken months on Blender (the servo robot arm took me over 6 months).
+My experience of 3D modelling on Blender I gathered from the first lockdown translated really well to Fusion. The parametric curve maths logic of FUsion made it so much easier for me to keep track of all the dimensions otherwise impossible or very frustrating on Blender which uses a polygon mesh logic. This project took me 4 weeks to develop which would have taken months on Blender (the servo robot arm took me over 6 months).
 
 
 Testing and assembly guide soon
